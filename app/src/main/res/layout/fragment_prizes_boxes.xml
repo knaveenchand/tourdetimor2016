@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center|center_horizontal"
+    android:padding="30dp"
+    android:baselineAligned="false"
+    android:touchscreenBlocksFocus="false"
+    android:textAlignment="center">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <ImageView android:id="@+id/dailymenelite"
+            android:layout_column="0"
+            android:src="@drawable/trophy1"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView android:id="@+id/dailywomenelite"
+            android:layout_column="1"
+            android:src="@drawable/cup"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView android:id="@+id/kom"
+            android:layout_column="2"
+            android:src="@drawable/medal1"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="Daily Men Elite"
+            android:id="@+id/textView23"
+            android:layout_column="0"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:gravity="center" />
+
+        <TextView
+            android:text="Daily Women Elite"
+            android:id="@+id/textView24"
+            android:layout_column="1"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:gravity="center" />
+
+        <TextView
+            android:text="King of Mountain"
+            android:id="@+id/textView25"
+            android:layout_column="2"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <ImageView android:id="@+id/menelite"
+            android:layout_column="0"
+            android:src="@drawable/medal2"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView android:id="@+id/womenelite"
+            android:layout_column="1"
+            android:src="@drawable/png24"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView android:id="@+id/sub23"
+            android:layout_column="2"
+            android:src="@drawable/medal3"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="Men Elite "
+            android:id="@+id/textView14"
+            android:layout_column="0"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center" />
+        <TextView
+            android:text="Women Elite"
+            android:id="@+id/textView15"
+            android:layout_column="1"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center" />
+        <TextView
+            android:text="Sub 23"
+            android:id="@+id/textView16"
+            android:layout_column="2"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <ImageView android:id="@+id/menmastera"
+            android:layout_column="0"
+            android:src="@drawable/star1"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView android:id="@+id/menmasterb"
+            android:layout_column="1"
+            android:src="@drawable/cup"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView android:id="@+id/nationalrider"
+            android:layout_column="2"
+            android:src="@drawable/trophy1"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="Men Master A"
+            android:id="@+id/textView17"
+            android:layout_column="0"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center" />
+        <TextView
+            android:text="Men Master B"
+            android:id="@+id/textView18"
+            android:layout_column="1"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center" />
+        <TextView
+            android:text="National Rider"
+            android:id="@+id/textView19"
+            android:layout_column="2"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/mixedteam"
+            android:layout_column="0"
+            android:src="@drawable/medal2"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView
+            android:id="@+id/menteam"
+            android:layout_column="1"
+            android:src="@drawable/men"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView
+            android:id="@+id/womenteam"
+            android:layout_column="2"
+            android:src="@drawable/woman"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:text="Mixed Team"
+            android:id="@+id/textView12"
+            android:layout_column="0"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Men Team"
+            android:id="@+id/textView13"
+            android:layout_column="1"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Women Team"
+            android:id="@+id/textView27"
+            android:layout_column="2"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView16"
+            android:layout_column="0"
+            android:src="@drawable/jersy1"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_column="1"
+            android:src="@drawable/jersy2"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_column="2"
+            android:src="@drawable/jersy3"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:text="Winner Jersey"
+            android:id="@+id/textView28"
+            android:layout_column="0"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Winner Jersey"
+            android:id="@+id/textView29"
+            android:layout_column="1"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Winner Jersey"
+            android:id="@+id/textView30"
+            android:layout_column="2"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/imageView19"
+            android:layout_column="0"
+            android:src="@drawable/jersy4"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView
+            android:id="@+id/imageView20"
+            android:layout_column="1"
+            android:src="@drawable/jersy5"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_column="2"
+            android:src="@drawable/jersy6"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal" >
+
+        <TextView
+            android:text="Winner Jersey"
+            android:id="@+id/textView31"
+            android:layout_column="0"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Winner Jersey"
+            android:id="@+id/textView32"
+            android:layout_column="1"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:text="Winner Jersey"
+            android:id="@+id/textView33"
+            android:layout_column="2"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <ImageView android:id="@+id/jersey7"
+            android:layout_column="0"
+            android:src="@drawable/jersy7"
+            android:layout_width="99dp"
+            android:layout_height="99dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="3dp"
+            android:layout_span="3" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:text="Winner Jersey"
+            android:id="@+id/textView21"
+            android:layout_column="0"
+            android:layout_width="99dp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:paddingBottom="10dp"
+            android:gravity="center"
+            android:layout_span="3" />
+    </TableRow>
+</TableLayout>
+</ScrollView>

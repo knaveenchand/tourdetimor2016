@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1st Place: $. 700 \n2nd Place: $. 600 \n3rd Place: $. 500 \n4th Place: $. 400 \n5th Place: $. 300 \n6th Place: $. 250 \n7th Place: $.  200 \n8th Place: $.  150 \n9th Place: $.  100 \n10th Place: $.  50"
+        android:id="@+id/textView8"
+        android:padding="10dp"
+        android:layout_below="@+id/textView11"
+        android:background="@color/material_deep_teal_500"
+        android:textColor="#ffffff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="King of Mountain"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>

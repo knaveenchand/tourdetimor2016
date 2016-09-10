@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Tour de Timor 2016</string>
+    <string name="link">App developed by matenek.com</string>
+    <string name="send_emergency_sms">Send Emergency SMS or Call</string>
+    <string name="tagline">\"The Mountain Bike Camping Tour on a Secret Island\"</string>
+    <string name="welcome">A Simple Utility App for Tour de Timor participants</string>
+    <string name="view_maps">View Maps</string>
+    <string name="get_the_schedule">Get the Schedule</string>
+    <string name="prizes">Eyes on the Prize</string>
+    <string name="faq">Read FAQ</string>
+    <string name="credits">App promoted by Timor Lodge Hotels, developed by Ms. Sai Geetha, Founder of Matenek Technologies (www.matenek.com).</string>
+    <string name="sms_hint">Important Numbers are pre-inserted. You can remove them individually if you want</string>
+    <string name="emergency_contacts">+67077230160</string>
+    <string name="phone_hint">Touch a number below to place a phone call instantly.</string>
+    <string name="phoneone">Joel Maria Pereira:\n+67077230160</string>
+    <string name="phonetwo">Angelo Henriques:\n+67078078037</string>
+    <string name="phonemedical">Medical Support:\n+6703311022</string>
+    <string name="urgenthelp">I need urgent help. Please call me back.</string>
+    <string name="stage1">Stage 1: Dili - Manatuto 81.5 Kms</string>
+    <string name="stage2">Stage 2: Manatuto - Quelicai 92.5 Kms</string>
+    <string name="stage3">Stage 3: Quelicai - Illiomar 83.5 Kms</string>
+    <string name="stage4">Stage 4: Illiomar - Lospalos Villa 104 Kms</string>
+    <string name="stage5">Stage 5: Lospalos Villa - Baucau 88 Kms</string>
+    <string name="tourdetowntext">The bus will also be doing a quick tour of the town if you would like to  get out for 45 minutes. <a href='http://google.com'>Book here</a></string>     
+    <string-array name="sports_array">
+                
+        <item>Shuttle Badminton</item>
+                
+        <item>Tennis</item>
+                
+        <item>FootBall</item>
+                
+        <item>Basket Ball</item>
+                
+        <item>Table Tennis</item>
+                
+        <item>Chess</item>
+                
+        <item>Hockey</item>
+            
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tourdetimortext">tourdetimortext</string>
+
+
+</resources>
+

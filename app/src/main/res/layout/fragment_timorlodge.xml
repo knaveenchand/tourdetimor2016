@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.matenek.tourdetimor2016.TimorlodgeFragment"
+    android:background="#ffffff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Dinner Menu \non 13 Sep 2016"
+        android:id="@+id/dinnerview"
+        android:gravity="center"
+        android:layout_below="@+id/textView9"
+        android:background="@android:color/holo_blue_light"
+        android:textColor="#ffffff"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Breakfast Menu \non 13 Sep 2016"
+        android:id="@+id/textView9"
+        android:gravity="center"
+        android:background="@color/highlighted_text_material_dark"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignStart="@+id/imageView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pool Party on 18th Sep 2016. \nBook early for a tour of timor."
+        android:id="@+id/textView10"
+        android:gravity="center"
+        android:background="@color/accent_material_dark"
+        android:padding="10dp"
+        android:layout_below="@+id/dinnerview"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/dinnerview" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView7"
+        android:src="@drawable/timorlodgepool"
+        android:layout_below="@+id/textView10"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView8"
+        android:src="@drawable/timorlodgelogooriginal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:layout_alignBottom="@+id/imageView8"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView9"
+        android:layout_below="@+id/imageView6"
+        android:src="@drawable/ic_breakfast"
+        android:layout_toStartOf="@+id/dinnerview"
+        android:layout_above="@+id/textView10" />
+
+
+</RelativeLayout>

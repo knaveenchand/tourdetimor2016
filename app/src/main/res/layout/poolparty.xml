@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="The race is over and its a Sunday. \n\nCome down to  the pool and chill with some tunes and grab a burger or a pizza. Start at 12:30.  \n\nPool volleyball competition starts at 15:00. Please start picking your teams. RULES: all teams must be made up of at least 3 nationalities."
+        android:id="@+id/textView8"
+        android:padding="10dp"
+        android:layout_below="@+id/textView11"
+        android:background="@color/material_deep_teal_500"
+        android:textColor="#ffffff"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Pool Party - 18th Sept"
+        android:id="@+id/textView11"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
